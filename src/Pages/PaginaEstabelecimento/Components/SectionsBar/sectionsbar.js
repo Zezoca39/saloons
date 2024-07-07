@@ -1,19 +1,24 @@
 import React from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
 import './sectionsbar.css';
 
 function SectionsBar() {
+  const handleNavigate = (position) => {
+    window.scrollTo({
+      top: position,
+      behavior: 'smooth',
+    });
+  };
+
   return (
-    <Navbar expand="lg" className="sectionsbar-navbar">
-      <Nav className="mx-auto sectionsbar-nav">
-        <Nav.Link as={Link} to="#precos">Preços</Nav.Link>
-        <Nav.Link as={Link} to="#section2">Localização</Nav.Link>
-        <Nav.Link as={Link} to="#section3">Equipa</Nav.Link>
-        <Nav.Link as={Link} to="#section4">Avaliações</Nav.Link>
-        <Nav.Link as={Link} to="#section5">Horário</Nav.Link>
-      </Nav>
-    </Navbar>
+    <div className="sectionsbar-container">
+      <div className="sectionsbar-nav">
+        <div className="sectionsbar-nav-link" onClick={() => handleNavigate(830)}>Preços</div>
+        <div className="sectionsbar-nav-link" onClick={() => handleNavigate(1450)}>Localização</div>
+        <div className="sectionsbar-nav-link" onClick={() => handleNavigate(2020)}>Equipa</div>
+        <div className="sectionsbar-nav-link" onClick={() => handleNavigate(2580)}>Avaliações</div>
+        <div className="sectionsbar-nav-link" onClick={() => handleNavigate(4000)}>Horário</div>
+      </div>
+    </div>
   );
 }
 

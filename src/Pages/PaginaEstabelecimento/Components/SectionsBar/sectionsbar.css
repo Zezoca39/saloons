@@ -1,24 +1,27 @@
-.sectionsbar-navbar {
+.sectionsbar-container {
     width: 100%;
     background-color: #000000;
-    /* Cor de fundo da navbar */
-    z-index: -1;
     height: 100px;
+    display: flex;
+    align-items: center;
+
 }
 
 .sectionsbar-nav {
-    width: 70%;
+    width: 67%;
     display: flex;
-    gap: 60px;
+    gap: 80px;
     font-family: 'Inter', sans-serif;
     font-weight: bold;
     font-size: 17px;
+    justify-content: center;
 }
 
-.sectionsbar-nav .nav-link {
+.sectionsbar-nav .sectionsbar-nav-link {
     color: #ffffff;
+    cursor: pointer;
 }
 
-.sectionsbar-nav .nav-link:hover {
+.sectionsbar-nav .sectionsbar-nav-link:hover {
     color: #b1b1b1;
 }
