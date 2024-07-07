@@ -11,7 +11,7 @@ function NavbarComponent({ showSearchBar }) {
         <Link to="/" style={{ textDecoration: 'none', color: 'white' }}>
           <div style={{ color: 'white', justifyContent: 'center' }}>
             <div>
-              <span style={{ fontWeight: 'bold', fontSize: '35px' }}>Saloons</span>
+              <span style={{ fontWeight: 'bold', fontSize: '35px' }}>Saloons</span>{' '}Business
             </div>
           </div>
         </Link>
