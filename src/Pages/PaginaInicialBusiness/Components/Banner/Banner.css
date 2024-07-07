@@ -1,0 +1,41 @@
+.container-bb {
+    position: relative;
+    height: 100vh;
+    background: url('../../../../../public/banner.png') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.overlay-bb {
+    margin-right: 50%;
+    margin-left: 15%;
+}
+
+.add-button-bb {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.add-button-bb:hover {
+    background-color: white;
+    color: black;
+}
+
+.login-link-bb {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.login-link-bb span {
+    cursor: pointer;
+    color: lightgreen;
+    text-decoration: underline;
+}

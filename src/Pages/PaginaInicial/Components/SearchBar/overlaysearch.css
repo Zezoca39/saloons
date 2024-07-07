@@ -1,0 +1,120 @@
+.overlay-pisb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0); /* Defina a cor de fundo inicial como transparente */
+    animation: fadeInOverlay 0.5s forwards; /* Adicione uma animação de fade-in */
+    z-index: 1000;
+    color: #000;
+    text-align: justify;
+}
+
+.overlay-search-bar-pisb {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    z-index: 1001;
+}
+
+.overlay-search-bar-pisb form {
+    display: flex;
+    align-items: center;
+}
+
+.overlay-search-bar-pisb input {
+    flex: 1;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.overlay-search-bar-pisb button {
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.previous-container-pisb {
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+.column1-pisb {
+    width: 100%;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-bottom-left-radius: 5px;
+    margin-top: -10px;
+    padding-top: 30px;
+}
+
+.column2-pisb {
+    width: 100%;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-bottom-right-radius: 5px;
+    margin-top: -10px;
+    padding-top: 30px;
+}
+
+.cardsearch-pisb {
+    display: flex;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.imagemcardsearch-pisb {
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.divout-pisb {
+    display: flex;
+}
+
+.divin-pisb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cardsearch-pisb h4 {
+    margin: 0;
+    font-size: 12px;
+}
+
+.cardsearch-pisb p {
+    margin: 5px 0 0;
+    font-size: 10px;
+}
+
+@keyframes fadeInOverlay {
+    from {
+        opacity: 0; /* Começa com opacidade zero */
+    }
+    to {
+        opacity: 1; /* Termina com opacidade total */
+    }
+}

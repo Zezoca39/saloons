@@ -1,0 +1,45 @@
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.footer-menu {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.footer-menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.vertical-bar {
+    color: white;
+    font-size: 20px;
+}
+
+.footer-divider {
+    border-top: 1px solid white;
+    margin: 10px auto;
+    width: 20%;
+}
+
+.footer-text {
+    font-size: 14px;
+}
+
+.highlight {
+    font-size: 25px; /* Define o tamanho da fonte da palavra "Saloons" */
+    font-weight: bold;
+    font-family:'Libre Casion Text' /* Deixa a palavra "Saloons" em negrito */
+}

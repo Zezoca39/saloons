@@ -1,0 +1,143 @@
+.container-servico {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.servico-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 15%;
+}
+
+.servicos-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 70%;
+}
+
+.card-servico {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    padding-bottom: 0px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.titulo-servicos {
+    font-size: 36px;
+    margin: 8px 0;
+    font-weight: bold;
+    text-align: start;
+    align-self: flex-start;
+    margin-left: 15%;
+}
+
+.card-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.preco {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.preco-original {
+    text-decoration: line-through;
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.preco-desconto {
+    color: #007BFF;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-detalhes {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+    height: 650px;
+}
+
+.card-detalhes3 {
+    position: fixed;
+    border-radius: 8px;
+    width: 20%;
+    height: 650px;
+    right: 15%;
+}
+
+.imagem-barbearia {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.imagem-barbearia img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+
+.imagem-barbearia::after {
+    content: '';
+    position: absolute;
+    bottom: 186px;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background: linear-gradient(to top, white, rgba(255, 255, 255, 0));
+}
+
+.detalhes-barbearia {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: -175px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.servicos-selecionados {
+    margin-bottom: 10px;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.button-seguinte {
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    align-self: flex-end;
+}
+
+.button-seguinte:hover {
+    background-color: #0056b3;
+}

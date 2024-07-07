@@ -1,0 +1,54 @@
+.card-list-horizontal-container2 {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-left: 6%;
+}
+
+.filtro-title-rec {
+    grid-column: span 12;
+    font-weight: bolder;
+    margin-left: 5%;
+}
+
+.filtro-more-rec {
+    grid-column: span 12;
+    text-align: end;
+    font-size: 15px;
+    margin-right: 3%;
+}
+
+.container-rec {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 10px;
+}
+
+.card-list-horizontal-container {
+    padding: 20px;
+}
+
+.card-list-horizontal {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.custom-card-rec {
+    width: 13rem;
+    margin: 15px;
+}
+
+.card-image {
+    height: 15rem;
+    object-fit: cover;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+.card-text {
+    font-size: 12px;
+}

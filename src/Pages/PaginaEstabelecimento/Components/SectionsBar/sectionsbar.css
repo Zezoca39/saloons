@@ -1,0 +1,24 @@
+.sectionsbar-navbar {
+    width: 100%;
+    background-color: #000000;
+    /* Cor de fundo da navbar */
+    z-index: -1;
+    height: 100px;
+}
+
+.sectionsbar-nav {
+    width: 70%;
+    display: flex;
+    gap: 60px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.sectionsbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.sectionsbar-nav .nav-link:hover {
+    color: #b1b1b1;
+}

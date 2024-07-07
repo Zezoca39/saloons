@@ -1,0 +1,61 @@
+.card-list-horizontal-container {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.filtro-title {
+    grid-column: span 12;
+    font-weight: bolder;
+}
+
+.filtro-more {
+    grid-column: span 12;
+    text-align: end;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    /* Divide a página em 12 colunas */
+    gap: 10px;
+    /* Espaço entre as colunas */
+}
+
+.card-list-horizontal-container {
+    padding: 20px;
+    /* Adicionando espaço ao redor dos cards */
+}
+
+.card-list-horizontal {
+    max-width: 100%;
+    /* Garantindo que os cards não ultrapassem a largura máxima */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.custom-card {
+    width: 15rem;
+    /* Definindo a largura desejada */
+    margin: 15px;
+    /* Espaçamento entre os cards */
+    cursor:pointer;
+}
+
+.card-image {
+    height: 15rem;
+    object-fit: cover;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card-title {
+    padding-top: 12pX;
+    padding-bottom: 5PX;
+    margin-left: 15px;
+}

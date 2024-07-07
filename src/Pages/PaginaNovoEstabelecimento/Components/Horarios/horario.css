@@ -1,0 +1,75 @@
+.container-horario {
+    margin: auto;
+    padding: 20px;
+    margin-top: 150px;
+    font-family: Arial, sans-serif;
+    width: 1000px;
+    text-align: center;
+}
+
+.nav-horario {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.nav-horario span {
+    font-weight: bold;
+}
+
+.form-horario {
+    display: flex;
+    flex-direction: column;
+}
+
+.linha-horario {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.label-container {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.label-horario {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.inputs-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+input[type="time"] {
+    padding: 5px;
+    font-size: 14px;
+    margin: 0 10px;
+    width: 140px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button-horario-container {
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.button-horario {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.button-horario:hover {
+    background-color: #0056b3;
+}

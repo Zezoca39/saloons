@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.container-resp {
+    width: 1000px;
+    height: 495px;
+    margin: 170px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.h1-resp {
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #333;
+    font-weight: bolder;
+}
+
+.nav-resp {
+    margin-bottom: 30px;
+    font-size: 14px;
+    color: #999;
+    text-align: center;
+}
+
+.nav-resp span {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Form Styles */
+.form-resp {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    text-align: left;
+}
+
+.form-group-resp {
+    display: flex;
+    flex-direction: column;
+}
+
+.label-resp {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.input-resp {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+.input-resp:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.button-resp-container {
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button-resp {
+    padding: 12px 30px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.button-resp:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}

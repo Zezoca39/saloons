@@ -1,0 +1,54 @@
+.card-list-horizontal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardLocal {
+    text-align: center;
+    /* Centraliza o conteúdo horizontalmente */
+    flex: 0 0 calc((100% - 500px) / 6);
+    /* Cada card ocupa 2 colunas de uma grade de 12 colunas */
+    margin: 0 10px;
+    /* Espaçamento entre os cards */
+    font-family: 'Inter', sans-serif;
+    /* Define a fonte */
+    -webkit-font-smoothing: antialiased;
+    /* Melhora a renderização da fonte no Safari */
+    -moz-osx-font-smoothing: grayscale;
+    /* Melhora a renderização da fonte no Firefox no macOS */
+    height: 200px;
+    /* Altura fixa para todos os cards */
+    display: flex;
+    /* Permite alinhamento vertical */
+    flex-direction: column;
+    /* Alinha o conteúdo verticalmente */
+    justify-content: space-between;
+    /* Distribui o espaço uniformemente */
+}
+
+
+.cardLocal h2 {
+    margin-top: 0;
+    cursor: pointer;
+    /* Remove o espaço superior do título */
+}
+
+.cardLocal ul {
+    list-style: none;
+    /* Remove as bolinhas das listas */
+    padding: 5px 0;
+}
+
+.cardLocal ul li {
+    margin: 5px 0;
+    cursor: pointer;
+    /* Adiciona espaço entre as entradas da lista */
+}
+
+.barra-vertical {
+    width: 1px;
+    height: 150px;
+    background-color: #000000;
+    margin: 0 10px;
+}

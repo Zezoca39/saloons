@@ -1,0 +1,12 @@
+.map-container {
+    height: 500px;
+    margin-left: 10%;
+}
+
+.titulo-mapa{
+    margin-left: 10%;
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}

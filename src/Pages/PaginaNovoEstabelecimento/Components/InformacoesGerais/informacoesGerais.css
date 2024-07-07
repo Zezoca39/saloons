@@ -1,0 +1,103 @@
+.container-resp {
+    margin: auto;
+    padding: 20px;
+    margin-top: 150px;
+    font-family: Arial, sans-serif;
+}
+
+.nav-resp {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.nav-resp span {
+    font-weight: bold;
+}
+
+.form-resp {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.form-group-resp {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.label-resp {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-resp {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.input-resp[type="file"] {
+    padding: 3px;
+}
+
+.button-resp-container {
+    grid-column: span 2;
+    display: flex;
+}
+
+.button-resp {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.button-resp:hover {
+    background-color: #0056b3;
+}
+
+.image-preview-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.image-preview {
+    position: relative;
+}
+
+.image-preview img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.image-preview button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: rgba(255, 0, 0, 0.7);
+    border: none;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-preview button:hover {
+    background-color: rgba(255, 0, 0, 1);
+}

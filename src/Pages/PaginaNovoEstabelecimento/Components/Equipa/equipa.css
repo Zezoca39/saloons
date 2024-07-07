@@ -1,0 +1,130 @@
+.container-equipa {
+    margin: auto;
+    padding: 20px;
+    margin-top: 150px;
+    font-family: Arial, sans-serif;
+    width: 1000px;
+    text-align: center;
+}
+
+.nav-equipa {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.nav-equipa span {
+    font-weight: bold;
+}
+
+.form-equipa {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card-membro-equipa {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.image-preview-equipa {
+    margin-bottom: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.image-preview-equipa img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.image-preview-equipa::after {
+    content: 'Alterar';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 5px;
+    margin-left: 31.5%;
+}
+
+.image-preview-equipa:hover::after {
+    opacity: 1;
+}
+
+.input-equipa[type="file"] {
+    display: none; /* Hide the file input */
+}
+
+.input-equipa[type="text"],
+.input-equipa[type="file"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.label-equipa {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.button-equipa-container {
+    grid-column: span 3;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.button-equipa {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.button-equipa:hover {
+    background-color: #0056b3;
+}
+
+.add-button-equipa {
+    background-color: #28a745; /* Cor verde para o botão de adicionar */
+}
+
+.add-button-equipa:hover {
+    background-color: #156d2a; /* Cor verde para o botão de adicionar */
+}
+
+.remove-button-equipa {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30%;
+    margin-top: 5px;
+}
+
+.remove-button-equipa:hover {
+    background-color: #c82333;
+}

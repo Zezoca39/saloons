@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: 'Inter', sans-serif;
+}
+
+.search-bar {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    animation: fadeInSearchBar 0.5s ease forwards;
+}
+
+.add-button2 {
+    z-index: 1;
+    border: 2px solid #fff;
+    background-color: transparent;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.add-button2:hover {
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+}

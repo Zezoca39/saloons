@@ -1,0 +1,31 @@
+.horarios {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-left: 8%;
+}
+
+.horarios h2 {
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.horarios ul {
+    list-style: none;
+    padding: 0;
+}
+
+.horarios li {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 0;
+    padding-right: 57%;
+}
+
+
+
+.hora {
+    font-weight: bold;
+}

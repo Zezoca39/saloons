@@ -1,0 +1,90 @@
+.container-precos {
+    margin: auto;
+    padding: 20px;
+    margin-top: 150px;
+    font-family: Arial, sans-serif;
+    width: 1000px;
+    text-align: center;
+}
+
+.nav-precos {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.nav-precos span {
+    font-weight: bold;
+}
+
+.form-precos {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 2fr 1fr 0.5fr;
+    gap: 10px;
+    align-items: center;
+}
+
+.card-preco {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-precos {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.label-precos {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.button-precos-container {
+    margin-top: 20px;
+    grid-column: span 5;
+    align-items: center;
+}
+
+.button-precos {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.button-precos:hover {
+    background-color: #0056b3;
+}
+
+.add-button-precos {
+    background-color: #28a745;
+}
+.add-button-precos:hover {
+    background-color: #156d2a;
+}
+
+.remove-button-precos {
+    background-color: #dc3545;
+    color: white;
+    height: 45px;
+    width: 45px;
+    margin-top: -10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.remove-button-precos:hover {
+    background-color: #c82333;
+}

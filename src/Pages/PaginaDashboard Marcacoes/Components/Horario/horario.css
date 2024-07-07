@@ -1,0 +1,56 @@
+.calendario-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 76%;
+    margin-right: auto;
+    margin-left: 340px;
+
+}
+
+.calendario-container h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.calendario-table-wrapper {
+    overflow-x: auto;
+
+}
+
+.calendario-table {
+    width: 100%;
+    /* Utiliza 100% da largura do seu contêiner */
+    border-collapse: collapse;
+}
+
+.calendario-table th,
+.calendario-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.calendario-table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+.calendario-table td.intervalo-horario {
+    background-color: #fff;
+}
+
+.dia-semana123 {
+    font-weight: bold;
+}
+
+.data123 {
+    font-size: 14px;
+    color: #666;
+}
+
+.horario123 {
+    font-weight: bold;
+}

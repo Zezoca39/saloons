@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+.container-half {
+    display: flex;
+    width: 100%;
+}
+
+.half1 {
+    width: 53%;
+    padding: 10px;
+    box-sizing: border-box;
+    padding-left:10%;
+}
+
+.half2 {
+    position: fixed;
+    right: 0;
+    width: 45%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    padding-right:10%;
+}
+
+.half3 {
+    width: 53%;
+    padding: 10px;
+    box-sizing: border-box;
+    padding-left:10%;
+}
